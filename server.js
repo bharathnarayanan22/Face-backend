@@ -13,7 +13,7 @@ app.use(cors())
 app.use(fileUpload({ useTempFiles: true }));
 
 // MongoDB connection
-mongoose.connect('mongodb://localhost:27017/faceDB', {
+mongoose.connect('mongodb+srv://Bharath:bharath22@cluster0.0ezxyyp.mongodb.net/faceDB', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 }).then(() => {
